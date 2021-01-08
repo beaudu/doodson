@@ -20,4 +20,4 @@ Type `doodson` without argument to see the list of available waves.
 **François Beauducel**, [IPGP](www.ipgp.fr), [beaudu](https://github.com/beaudu), beauducel@ipgp.fr
 
 ## Documentation
-Type `doc doodson` for syntax and examples.
+Type `doc doodson` for syntax and examples. See also [![View Doodson tidal wave components on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://fr.mathworks.com/matlabcentral/fileexchange/46735-doodson-tidal-wave-components) for users community comments.
