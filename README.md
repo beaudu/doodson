@@ -17,6 +17,8 @@ Type `doodson` without argument to display all available waves, and their associ
    S4: 491.555, 0.25 day
    M6: 655.555, 0.172508 day
    M8: 855.555, 0.129381 day
+>> doodson S1
+   S1: 164.555, 1 day
 >> X=doodson('M2')
    X =
      symbol: {'M2'}

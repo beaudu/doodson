@@ -1,4 +1,4 @@
-function X=doodson(w)
+function X=doodson(varargin)
 %DOODSON Doodson tidal wave components
 %	DOODSON(WAVE) displays the wave period (in days) for wave symbol WAVE.
 %	WAVE must be a string or a cell of strings.
@@ -128,9 +128,9 @@ ems = [ ...
 if nargin == 0
 	k = 1:size(ww,1);
 else
-	if ischar(w)
-		w = cellstr(w);
-	elseif iscell(w) && ~all(cellfun(@ischar,w))
+	if all(cellfun(@ischar,varargin))
+		w = varargin;
+    else
 		error('WAVE argument must be a string or cell array of strings.')
 	end
 	[i,j] = ismember(upper(w),upper(ww(:,2)));
